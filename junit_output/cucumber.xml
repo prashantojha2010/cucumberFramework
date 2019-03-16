@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="145.936035">
+    <testcase classname="Free CRM Create Contact feature" name="Free CRM Create a Contact scenario" time="46.28354">
+        <system-out>
+            <![CDATA[Given user is  on the FreeCRM Login Page....................................passed
+When the title of the page is  FreeCRM......................................passed
+Then user  enters "prashantojha2706"  and "Ojha@123"........................passed
+Then user clicks on submit button...........................................passed
+Then user is on the HomePage................................................passed
+Then user moves to New Contact Page.........................................passed
+Then user enters contact details "Jack" and "Timas" and "CEO"...............passed
+Then close the browser......................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Free CRM Create Contact feature" name="Free CRM Create a Contact scenario 2" time="50.342359">
+        <system-out>
+            <![CDATA[Given user is  on the FreeCRM Login Page....................................passed
+When the title of the page is  FreeCRM......................................passed
+Then user  enters "prashantojha2706"  and "Ojha@123"........................passed
+Then user clicks on submit button...........................................passed
+Then user is on the HomePage................................................passed
+Then user moves to New Contact Page.........................................passed
+Then user enters contact details "Jimmy" and "Carton" and "CFO".............passed
+Then close the browser......................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Free CRM Create Contact feature" name="Free CRM Create a Contact scenario 3" time="49.310136">
+        <system-out>
+            <![CDATA[Given user is  on the FreeCRM Login Page....................................passed
+When the title of the page is  FreeCRM......................................passed
+Then user  enters "prashantojha2706"  and "Ojha@123"........................passed
+Then user clicks on submit button...........................................passed
+Then user is on the HomePage................................................passed
+Then user moves to New Contact Page.........................................passed
+Then user enters contact details "Roger" and "Berton" and "CFO".............passed
+Then close the browser......................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
