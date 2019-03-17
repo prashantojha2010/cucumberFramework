@@ -1,5 +1,6 @@
 Feature: Create Deal feature
 
+#DataTable
 Scenario: Free CRM Create a Deal scenario
 
 Given user is  on the FreeCRM Login Page
