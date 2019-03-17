@@ -7,10 +7,11 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-features= "C:\\Users\\Prashant Ojha\\eclipse-workspace\\CucumberDemo1\\src\\main\\java\\Features\\contacts.feature"	,
+features= "C:\\Users\\Prashant Ojha\\eclipse-workspace\\CucumberDemo1\\src\\main\\java\\Features\\dealsmap.feature"	,
 glue= {"Stepdefination"},
-format= {"pretty", "html:test-output", "json:json_output\\cucumber.json", "junit:junit_output\\cucumber.xml"},
+plugin= {"pretty","html:test-output", "json:json_output\\cucumber.json", "junit:junit_output\\cucumber.xml"},
 monochrome= true,
+strict= true,
 dryRun= false
 )
 
